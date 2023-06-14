@@ -18,7 +18,7 @@ By babynghe2003
 /*
  * @breif Set Software Serial
  */
-void      begin(Stream &s_);
+void      begin();
 
 /*
  * @breif Measuring distance
@@ -27,7 +27,7 @@ void      begin(Stream &s_);
  *     ture   Success
  *     false  Failed
  */
-bool      measure(void);
+bool      measure2(void);
 
 /*
  * @breif Get distance data
@@ -43,6 +43,13 @@ uint16_t  getDistance(void);
  */
 uint16_t  getStrength(void);
 
+/*
+ * @breif Get Temprature data
+ *
+ * @return the value of Temprature
+ */
+uint16_t getTemprature(void);
+
 ```
 
 ## History
@@ -52,5 +59,5 @@ uint16_t  getStrength(void);
 
 ## Credits
 
-- author [Zhangjiawei <jiawei.zhang@dfrobot.com>]
+- author [BabyNghe2003<himinhpho@gmail.com>]
 

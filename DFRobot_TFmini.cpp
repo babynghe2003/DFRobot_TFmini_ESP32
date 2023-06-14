@@ -124,7 +124,8 @@ bool DFRobot_TFmini::measure2(void){
         }
         rec_debug_state = 0x01;
       }
-    }  }
+    }  
+  }
   return false;
 }
 
